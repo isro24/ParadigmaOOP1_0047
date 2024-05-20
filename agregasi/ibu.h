@@ -19,7 +19,7 @@ public:
 void ibu::tambahAnak(anak* pAnak){
     daftar_anak.push_back(pAnak);
 }
-void cetakAnak(){
+void ibu::cetakAnak(){
     cout << "Daftar Anak Dari Ibu \"" << this->nama << "\":\n";
     for (auto& a : daftar_anak){
         cout << a->nama << "\n";
